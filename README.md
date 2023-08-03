@@ -2,6 +2,36 @@
 
 OSİ (Open Systems Interconnection) referans modeli, bilgisayar ağlarındaki iletişimi standartlaştırmak ve farklı ağ protokollerinin birbirleriyle uyumlu bir şekilde çalışmasını sağlamak amacıyla geliştirilen bir referans modelidir. ISO (International Organization for Standardization) tarafından 1984 yılında tanıtılmıştır. Bu model, ağların farklı katmanlara ayrılması ve her katmanın belirli görevleri üstlenmesi ilkesine dayanır.
 
+
+| Katman      | İşlev                      | Protokoller                          |
+|-------------|----------------------------|--------------------------------------|
+| Uygulama    | Kullanıcı uygulamalarıyla   | HTTP, SMTP, FTP, DNS, SSH, DHCP,     |
+|             | doğrudan etkileşim         | SNMP, POP3, IMAP, Telnet, HTTPS     |
+|             | ve veri alışverişi         |                                      |
+|-------------|----------------------------|--------------------------------------|
+| Sunum       | Veri temsili, şifreleme,   | JPEG, GIF, MPEG, SSL, TLS,           |
+|             | sıkıştırma ve protokol     | ASCII, UTF-8, PNG                   |
+|             | dönüşümleri                |                                      |
+|-------------|----------------------------|--------------------------------------|
+| Oturum      | Uygulamalar arasında       | NetBIOS, RPC, SSH, TLS Handshake,    |
+|             | oturum yönetimi            | SCP, Telnet Negotiation              |
+|-------------|----------------------------|--------------------------------------|
+| Taşıma      | Veri akış kontrolü ve      | TCP, UDP, SCTP                      |
+|             | güvenilir veri iletimi     |                                      |
+|-------------|----------------------------|--------------------------------------|
+| Ağ         | Yönlendirme ve paketleme   | IPv4, IPv6, ICMP, OSPF, BGP,        |
+|             | işlemleri                  | RIP, ARP                            |
+|-------------|----------------------------|--------------------------------------|
+| Datalink    | Fiziksel adresleme,        | Ethernet, PPP, HDLC, IEEE 802.11,   |
+|             | hata kontrolü ve erişim   | Frame Relay                         |
+|             | kontrolü                   |                                      |
+|-------------|----------------------------|--------------------------------------|
+| Fiziksel    | Verilerin fiziksel         | Ethernet, USB, RS-232, Bluetooth,   |
+|             | ortama aktarılması         | Wi-Fi, Fiber Optik, DSL             |
+|             |                            |                                      |
+
+
+
 ## Fiziksel Katman (Physical Layer)
 
 Fiziksel katman, verilerin ağ üzerindeki fiziksel ortamdan aktarılmasından sorumludur. Elektrik sinyalleri, radyo dalgaları veya optik sinyaller gibi fiziksel medya kullanarak verileri bit akışlarına dönüştürür. Bu katmanı temsil etmek için, bir bilgisayar ağındaki kabloları ve bağlantıları gösteren bir diyagram kullanılabilir.
