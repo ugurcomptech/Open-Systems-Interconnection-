@@ -3,28 +3,15 @@
 OSİ (Open Systems Interconnection) referans modeli, bilgisayar ağlarındaki iletişimi standartlaştırmak ve farklı ağ protokollerinin birbirleriyle uyumlu bir şekilde çalışmasını sağlamak amacıyla geliştirilen bir referans modelidir. ISO (International Organization for Standardization) tarafından 1984 yılında tanıtılmıştır. Bu model, ağların farklı katmanlara ayrılması ve her katmanın belirli görevleri üstlenmesi ilkesine dayanır.
 
 
-| Katman      | İşlev                                          | Protokoller                        |
-|-------------|------------------------------------------------|------------------------------------|
-| Uygulama    | Kullanıcı uygulamalarıyla doğrudan etkileşim  | HTTP, SMTP, FTP, DNS, SSH, DHCP,   |
-|             | ve veri alışverişi                            | SNMP, POP3, IMAP, Telnet, HTTPS    |
-|-------------|-----------------------------------------------|------------------------------------|
-| Sunum       | Veri temsili, şifreleme, sıkıştırma ve       | JPEG, GIF, MPEG, SSL, TLS,         |
-|             | protokol dönüşümleri                          | ASCII, UTF-8, PNG                 |
-|-------------|-----------------------------------------------|------------------------------------|
-| Oturum      | Uygulamalar arasında oturum yönetimi         | NetBIOS, RPC, SSH, TLS Handshake,  |
-|             |                                               | SCP, Telnet Negotiation            |
-|-------------|-----------------------------------------------|------------------------------------|
-| Taşıma      | Veri akış kontrolü ve güvenilir veri iletimi  | TCP, UDP, SCTP                    |
-|-------------|-----------------------------------------------|------------------------------------|
-| Ağ         | Yönlendirme ve paketleme işlemleri            | IPv4, IPv6, ICMP, OSPF, BGP,      |
-|             |                                               | RIP, ARP                          |
-|-------------|-----------------------------------------------|------------------------------------|
-| Datalink    | Fiziksel adresleme, hata kontrolü ve         | Ethernet, PPP, HDLC, IEEE 802.11, |
-|             | erişim kontrolü                               | Frame Relay                       |
-|-------------|-----------------------------------------------|------------------------------------|
-| Fiziksel    | Verilerin fiziksel ortama aktarılması         | Ethernet, USB, RS-232, Bluetooth, |
-|             |                                               | Wi-Fi, Fiber Optik, DSL           |
-|-------------|-----------------------------------------------|------------------------------------|
+| Katman   | İşlev                                                            | Protokoller                                                       |
+|----------|------------------------------------------------------------------|-------------------------------------------------------------------|
+| Uygulama | Kullanıcı uygulamalarıyla doğrudan etkileşim ve veri alışverişi  | HTTP, SMTP, FTP, DNS, SSH, DHCP, SNMP, POP3, IMAP, Telnet, HTTPS  |
+| Sunum    | Veri temsili, şifreleme, sıkıştırma ve protokol dönüşümleri      | JPEG, GIF, MPEG, SSL, TLS, ASCII, UTF-8, PNG                      |
+| Oturum   | Uygulamalar arasında oturum yönetimi                             | NetBIOS, RPC, SSH, TLS Handshake,SCP, Telnet Negotiation          |
+| Taşıma   | Veri akış kontrolü ve güvenilir veri iletimi                     | TCP, UDP, SCTP                                                    |
+| Ağ       | Yönlendirme ve paketleme işlemleri                               | IPv4, IPv6, ICMP, OSPF, BGP, RIP, ARP                             |
+| Datalink | Fiziksel adresleme, hata kontrolü ve erişim kontrolü             | Ethernet, PPP, HDLC, IEEE 802.11, Frame Relay                     |
+| Fiziksel | Verilerin fiziksel ortama aktarılması                            | Ethernet, USB, RS-232, Bluetooth, Wi-Fi, Fiber Optik, DSL         |
 
 
 
